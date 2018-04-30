@@ -3,9 +3,12 @@
 */
 const assert = require("assert");
 
-function makeGreeting() {
+function makeGreeting(name) {
     "use strict";
-    return "Hello world!"; 
+    if (name) {
+        return "Hello" + " " + name + "!";
+    }
+    return "Hello world!";
 }
 
 assert.strictEqual(makeGreeting(), "Hello world!");
