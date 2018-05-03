@@ -1,7 +1,7 @@
 # Hello World Around the World
 
 ## Usage
-Enter in shell `node --experimental-modules test.js`
+Enter in shell `. check-all.sh`
 
 ## User Cases
 Communicates "Hello world!" to users.
